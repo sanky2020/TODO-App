@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    background-image: linear-gradient(to bottom, grey,gold);
+  }
+  body {
+    background-image: linear-gradient(to bottom, orange, purple);
     height: 100vh;
-}
-#main-heading{
+  }
+  #main-heading {
     margin: 30px 0;
     text-align: center;
-}
-#container{
+  }
+  #container {
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
-}
-#input-text{
+  }
+  #input-text {
     box-sizing: border-box;
     width: 100%;
     border: none;
@@ -23,8 +23,8 @@ body{
     padding: 8px 20px;
     font-size: 20px;
     border-radius: 5px;
-}
-#input-text2{
+  }
+  .input-text2 {
     box-sizing: border-box;
     width: 90%;
     border: none;
@@ -32,35 +32,36 @@ body{
     padding: 2px 10px 2px 0;
     font-size: 20px;
     border-radius: 5px;
-}
-.icon-wrapper{
+  }
+  .icon-wrapper {
     display: flex;
-}
-.icon-wrapper i{
+  }
+  .icon-wrapper i {
     margin-left: 10px;
-}
-.todo-item i{
+  }
+  .todo-item i {
     cursor: pointer;
-}
-#dummy-text{
+  }
+  #dummy-text {
     font-size: 16px;
     color: grey;
     cursor: not-allowed;
-}
-#submit-btn{
+  }
+  #submit-btn {
     width: 50%;
     font-size: 15px;
     font-weight: 600;
     padding: 5px 0;
     border-radius: 5px;
-    background-color: lightgreen;
+    color: yellow;
+    background-color: black;
     display: inline-block;
     margin: 15px 112px;
-}
-#list-container{
+  }
+  #list-container {
     margin-top: 20px;
-}
-.todo-item{
+  }
+  .todo-item {
     width: 100%;
     background-color: whitesmoke;
     padding: 10px 20px;
@@ -71,13 +72,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-@media (max-width:400px){
-    #container{
-        width: 80%;
-        margin: 0 auto;
-    }   
-    #submit-btn{
-        margin: 10px 80px;
+  }
+  @media (max-width: 400px) {
+    #container {
+      width: 80%;
+      margin: 0 auto;
     }
-}
+    #submit-btn {
+      margin: 10px 80px;
+    }
+  }
+  
